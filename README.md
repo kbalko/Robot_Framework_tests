@@ -4,7 +4,7 @@ app: https://dry-brushlands-36461.herokuapp.com/  (you can check that in my othe
 
 Tech:
 Robot Framework
-Selenium Librar
+Selenium Library
 
 - To start install dependencies
 
