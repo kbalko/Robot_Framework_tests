@@ -15,7 +15,7 @@ install dependencies
    $ pip install robotframework
    $ pip install robotframework-seleniumlibrary
 
-or just use target from Makefile:
+ or just use target from Makefile:
 
    $ make devops
 
