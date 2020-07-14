@@ -31,7 +31,7 @@ Selenium Library
       $make test_headless
 
 
-After tests  output, log and report will be store inOutputs directory.
+After tests  output, log and report will be store in Outputs directory.
 
 - CLI output:
 
