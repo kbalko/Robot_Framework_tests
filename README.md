@@ -16,7 +16,7 @@ Selenium Library
 
  or just use target from Makefile:
 
-    $ make devops
+    $ make deps
 
  install gecodriver
 
