@@ -26,7 +26,7 @@ Selenium Library
 
       $make test_browser
 
-   of without browser window:
+   or without browser window:
 
       $make test_headless
 
