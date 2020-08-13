@@ -1,6 +1,6 @@
 Basic Test Cases of Web-application
 ===================================
-app: https://dry-brushlands-36461.herokuapp.com/  (you can check that project in my other repo)
+app: https://microflaskapp.herokuapp.com (you can check that project in my other repo)
 
 Tech:
 Robot Framework
