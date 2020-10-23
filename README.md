@@ -45,21 +45,21 @@ After tests  output, log and report will be store in Outputs directory.
           ------------------------------------------------------------------------------
           Test 3 Fail logging attempt with not registred login and valid pas... | PASS |
           ------------------------------------------------------------------------------
-          Test 4 Fail logging attempt with no input login and password          | PASS |
+          Test 4 Fail logging attempt with input no login and no password       | PASS |
           ------------------------------------------------------------------------------
-          Test 5 Fail user registration attepmt with taken login                | PASS |
+          Test 5 Fail user registration attempt with taken login                | PASS |
           ------------------------------------------------------------------------------
-          Test 6 Fail user registration attepmt with too short login            | PASS |
+          Test 6 Fail user registration attempt with too short login            | PASS |
           ------------------------------------------------------------------------------
-          Test 7 Fail user registration attepmt with too long login             | PASS |
+          Test 7 Fail user registration attempt with too long login             | PASS |
           ------------------------------------------------------------------------------
-          Test 8 Fail user registration attepmt with invalid login (invalid ... | PASS |
+          Test 8 Fail user registration attempt with invalid login (invalid ... | PASS |
           ------------------------------------------------------------------------------
-          Test 9 Fail user registration attepmt with invalid email              | PASS |
+          Test 9 Fail user registration attempt with invalid email              | PASS |
           ------------------------------------------------------------------------------
-          Test 10 Fail user registration attepmt with taken email               | PASS |
+          Test 10 Fail user registration attempt with taken email               | PASS |
           ------------------------------------------------------------------------------
-          Test 11 Fail user registration attepmt - fail confirmation password   | PASS |
+          Test 11 Fail user registration attempt - fail confirmation password   | PASS |
           ------------------------------------------------------------------------------
           Test 12 Check if navbar '/explore' direction works                    | PASS |
           ------------------------------------------------------------------------------

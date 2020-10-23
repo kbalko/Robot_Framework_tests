@@ -33,13 +33,13 @@ Test 3 Fail logging attempt with not registred login and valid password
    Check if user is NOT log in
    Close browser
 
-Test 4 Fail logging attempt with no input login and password
+Test 4 Fail logging attempt with input no login and no password
    Go to website
    Click submit button
    Page Should Not Contain   ${logging_sucess}
    Close browser
 
-Test 5 Fail user registration attepmt with taken login
+Test 5 Fail user registration attempt with taken login
    Go to website
    Go to registration form
    Entering login: valid, taken
@@ -50,7 +50,7 @@ Test 5 Fail user registration attepmt with taken login
    Page Should Contain   ${login_is_taken}
    Close browser
 
-Test 6 Fail user registration attepmt with too short login
+Test 6 Fail user registration attempt with too short login
    Go to website
    Go to registration form
    Entering login: too short login
@@ -62,7 +62,7 @@ Test 6 Fail user registration attepmt with too short login
    Close browser
 
 
-Test 7 Fail user registration attepmt with too long login
+Test 7 Fail user registration attempt with too long login
    Go to website
    Go to registration form
    Entering login: too long login
@@ -73,7 +73,7 @@ Test 7 Fail user registration attepmt with too long login
    Page Should Contain   ${login_is_long}
    Close browser
 
-Test 8 Fail user registration attepmt with invalid login (invalid characters)
+Test 8 Fail user registration attempt with invalid login (invalid characters)
    Go to website
    Go to registration form
    Entering login: invalid characters
@@ -84,7 +84,7 @@ Test 8 Fail user registration attepmt with invalid login (invalid characters)
    Page Should Contain   ${login_is_invalid}
    Close browser
 
-Test 9 Fail user registration attepmt with invalid email
+Test 9 Fail user registration attempt with invalid email
    Go to website
    Go to registration form
    Entering login: valid, free
@@ -95,7 +95,7 @@ Test 9 Fail user registration attepmt with invalid email
    Page Should Contain   ${email_is_invalid}
    Close browser
 
-Test 10 Fail user registration attepmt with taken email
+Test 10 Fail user registration attempt with taken email
    Go to website
    Go to registration form
    Entering login: valid, free
@@ -106,7 +106,7 @@ Test 10 Fail user registration attepmt with taken email
    Page Should Contain   ${email_is_taken}
    Close browser
 
-Test 11 Fail user registration attepmt - fail confirmation password
+Test 11 Fail user registration attempt - fail confirmation password
    Go to website
    Go to registration form
    Entering login: valid, free
@@ -173,7 +173,7 @@ Test 17 Check if user can add post
    Page Should Contain    ${test_text}
    Close Browser
 
-Test 18 Fail attepmt to reset password with invalid email
+Test 18 Fail attempt to reset password with invalid email
    Go to website
    Go to /reset_password_request
    Wait Until Element Is Visible    ${selector_email}
